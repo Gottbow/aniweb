@@ -1,3 +1,6 @@
+//Imports de los Components
+import Footer from "../../Components/Footer/Footer";
+
 import sunshine from "../../assets/img/sunshine.jpg";
 
 function Home() {
@@ -141,6 +144,7 @@ function Home() {
           </a>
         </div>
       </section>
+      <Footer />
     </div>
   );
 }
